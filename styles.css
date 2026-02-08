@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+body {
+    font-family: 'JetBrains Mono';
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #ffffff;
+    padding: 40px 40px 40px 40px;
+}
+
+.title {
+    font-family: 'JetBrains Mono';
+    font-weight: bold;
+    max-width: 900px;
+    margin: 25px auto auto auto;
+}
+
+.subtitle {
+    font-family: 'JetBrains Mono';
+    max-width: 900px;
+    margin: 0px auto 25px auto;
+}
+
+.container {
+    max-width: 900px;
+    gap: 80px;
+    display: flex;
+    margin: 25px auto;
+}
+
+.left-section {
+    flex: 2;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -50px 0 0 0;
+}
+
+.profile-photo {
+    max-width: 225px;
+    border-radius: 25px;
+}
+
+.email {
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    margin: 25px auto 10px auto;
+}
+
+.social-links {
+    display: flex;
+    gap: 25px;
+}
+
+.social-links a {
+    color: #333333;
+    transition: opacity 0.2s;
+    font-size: 25px;
+}
+
+.social-links a:hover {
+    opacity: 0.6;
+}
+
+.section-sep {
+    border: None;
+    height: 3px;
+    color: #ffffff;
+    background-color: #333333;
+    max-width: 900px;
+    gap: 80px;
+    display: flex;
+    margin: 25px auto;
+}
+
+.fa-ul li {
+    margin: 0 20px 20px 0;
+}
+
+.fa-ul .li-work:before {
+    font-family: 'FontAwesome';
+    content: '\f0b1';
+}
+
+.fa-ul .li-education:before {
+    font-family: 'FontAwesome';
+    content: '\f19d';
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        font-family: 'JetBrains Mono';
+        font-size: 18px;
+        line-height: 1.5;
+        color: #ffffff;
+        background-color: #333333;
+        padding: 40px 40px 40px 40px;
+    }
+    .fab {
+        color: #ffffff;
+    }
+    .ai-cv {
+        color: #ffffff;
+    }
+    .section-sep {
+        border: None;
+        height: 3px;
+        color: #ffffff;
+        background-color: #ffffff;
+        max-width: 900px;
+        gap: 80px;
+        display: flex;
+        margin: 25px auto;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .title {
+        font-size: 25px;
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .container {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .right-section {
+        order: -1;
+        margin: 0;
+    }
+    
+    .profile-photo {
+        max-width: 250px;
+    }
+}
