@@ -4,7 +4,7 @@
 :root {
     --max-width: 900px;
     --text-color: #333;
-    --background-color: #fff;
+    --background-color: #f5f5f5;
     --separator-color: #333;
 }
 
@@ -181,9 +181,9 @@ a {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --text-color: #fff;
+        --text-color: #f5f5f5;
         --background-color: #333;
-        --separator-color: #fff;
+        --separator-color: #f5f5f5;
         --muted-color: #aaa;
     }
 
