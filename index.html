@@ -4,99 +4,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Alessandro Ristori, Italian software developer specialising in Artificial Intelligence, Deep Learning and Natural Language Processing.">
+    <meta name="author" content="Alessandro Ristori">
     <title>RistoAle97</title>
-    <link rel="icon" href="terminal-solid-full-white.svg">
+    <link rel="icon" type="image/png" href="profile_icon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
 </head>
 
 <body>
-    <h1 class="title">Alessandro Ristori</h1>
-    <p class="subtitle"><i>Just a guy working on AI</i></p>
 
-    <div class="container">
+    <header>
+        <h1 class="title">Alessandro Ristori</h1>
+        <p class="subtitle"><i>Just a guy working on AI</i></p>
+        <div class="hero">
+            <div class="intro">
+                <div class="terminal">
+                    <div class="terminal-titlebar">
+                        <div class="terminal-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="terminal-title">ristoale97@website:~</span>
+                    </div>
 
-        <div class="left-section" style="font-family: 'Source Code Pro'">
-            $ uv run python welcome.py
-            <br><br>
-            Welcome to my humble personal website! I'm an Italian software developer who specialises in Artificial Intelligence.
-            <br><br>
-            My main focus is Deep Learning with a particular interest in Natural Language Processing and Neural Machine Translation.
-        </div>
-        
-        <div class="right-section">
-            <img src="profile.png" alt="Alessandro Ristori" class="profile-photo">
-            <p class="email">aleristori97@gmail.com</p>
-            <div class="social-links">
-                <a href="https://github.com/RistoAle97" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/ristoale97" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://mastodon.social/@RistoAle97" target="_blank"><i class="fab fa-mastodon"></i></a>
-                <a href="cv_alessandro_ristori.pdf" target="_blank"><i class="ai ai-cv" style="font-size:1.7rem"></i></a>
+                    <div class="terminal-content">
+                        <span class="terminal-prompt">ristoale97@website:~$</span>
+                        uv run python welcome.py
+                    </div>
+                </div>
+                <p>Welcome to my humble personal website! I'm an Italian software developer who specialises in Artificial Intelligence.</p>
+                <p>My main focus is Deep Learning, with a particular interest in Natural Language Processing and Neural Machine Translation.</p>
             </div>
+            <aside class="profile">
+                <img src="profile.png" alt="Alessandro Ristori" class="profile-photo">
+                <p class="email">
+                    <a href="mailto:aleristori97@gmail.com">aleristori97@gmail.com</a>
+                </p>
+                <nav class="social-links" aria-label="Social links">
+                    <a href="https://github.com/RistoAle97" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ristoale97" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://mastodon.social/@RistoAle97" target="_blank" rel="noopener noreferrer" aria-label="Mastodon">
+                        <i class="fab fa-mastodon" aria-hidden="true"></i>
+                    </a>
+                    <a href="cv_alessandro_ristori.pdf" target="_blank" rel="noopener noreferrer" aria-label="CV">
+                        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+                    </a>
+                </nav>
+            </aside>
         </div>
+    </header>
 
-    </div>
+    <main>
+        <section>
+            <hr class="section-sep">
+            <h2 class="subtitle">
+                <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+                Work Experience
+            </h2>
+            <div class="entries">
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>Tai Solutions</strong>
+                        <time datetime="2024-05">May 2024 - present</time>
+                    </div>
+                    <div class="entry-detail">Big Data &amp; AI Specialist</div>
+                </article>
+            </div>
+        </section>
 
-    <hr class="section-sep">
-    <h2 class="subtitle" style="margin-bottom: 10px;"><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
-    
-    <div class="container" style="margin-top: 0px;">
-        <div class="left-section">
-            <ul class="fa-ul">
-                <li class="li-work">
-                    <span style="font-weight: bold;">Tai Solutions</span><br>
-                    Big Data & AI Specialist<span style="float: right;">May 2024 - present</span>
-                </li>
-            </ul>
-        </div>
-    
-    </div>
-    
-    <hr class="section-sep">
-    <h2 class="subtitle" style="margin-bottom: 10px;"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
-    
-    <div class="container" style="margin-top: 0px;">
-        <div class="left-section">
-            <ul class="fa-ul">
-                <li class="li-education">
-                    <span style="font-weight: bold;">University of Pisa</span><span style="float: right;">Sep. 2020 - Dec. 2023</span><br>
-                    M.Sc. in Computer Science - AI curriculum<br>
-                    110/110 cum Laude
-                </li>
-                <li class="li-education">
-                    <span style="font-weight: bold;">University of Florence</span><span style="float: right;">Sep. 2016 - Feb. 2020</span><br>
-                    B.Sc. in Computer Science<br>
-                    110/110
-                </li>
-            </ul>
-        </div>
-    </div>
+        <section>
+            <hr class="section-sep">
+            <h2 class="subtitle">
+                <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                Education
+            </h2>
+            <div class="entries">
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>University of Pisa</strong>
+                        <time datetime="2020-09/2023-12">Sep. 2020 - Dec. 2023</time>
+                    </div>
+                    <div class="entry-detail">M.Sc. in Computer Science - AI curriculum</div>
+                    <div class="entry-detail">Final grade: 110/110 cum Laude</div>
+                </article>
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>University of Florence</strong>
+                        <time datetime="2016-09/2020-02">Sep. 2016 - Feb. 2020</time>
+                    </div>
+                    <div class="entry-detail">B.Sc. in Computer Science</div>
+                    <div class="entry-detail">Final grade: 110/110</div>
+                </article>
+            </div>
+        </section>
 
-    <hr class="section-sep">
-    <h2 class="subtitle" style="margin-bottom: 10px;"><i class="fa-solid fa-certificate"></i> Certificates</h2>
-    
-    <div class="container" style="margin-top: 0px;">
-        <div class="left-section">
-            <ul class="fa-ul">
-                <li class="li-certificates">
-                    <span style="font-weight: bold;">Associate Data Pipeline Developer Certification</span><span style="float: right;">2026</span><br>
-                </li>
-                <li class="li-certificates">
-                    <span style="font-weight: bold;">Professional Integration Developer Certification</span><span style="float: right;">2026</span><br>
-                </li>
-                <li class="li-certificates">
-                    <span style="font-weight: bold;">Associate Integration Developer Certification</span><span style="float: right;">2026</span><br>
-                </li>
-                <li class="li-certificates">
-                    <span style="font-weight: bold;">AWS Certified Machine Learning Engineer - Associate</span><span style="float: right;">2026</span><br>
-                </li>
-                <li class="li-certificates">
-                    <span style="font-weight: bold;">AWS Certified AI Practitioner</span><span style="float: right;">2025</span><br>
-                </li>
-            </ul>
-        </div>
-    </div>
+        <section>
+            <hr class="section-sep">
+            <h2 class="subtitle">
+                <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+                Certificates
+            </h2>
+            <div class="entries">
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>
+                            <a href="https://verify.skilljar.com/c/vwcx5mdh74ui" target="_blank" rel="noopener noreferrer">
+                                Associate Data Pipeline Developer Certification
+                            </a>
+                        </strong>
+                        <time datetime="2026">2026</time>
+                    </div>
+                    <div class="entry-detail">Boomi</div>
+                </article>
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>
+                            <a href="https://verify.skilljar.com/c/79mpqo5tm8ay" target="_blank" rel="noopener noreferrer">
+                                Professional Integration Developer Certification
+                            </a>
+                        </strong>
+                        <time datetime="2026">2026</time>
+                    </div>
+                    <div class="entry-detail">Boomi</div>
+                </article>
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>
+                            <a href="https://verify.skilljar.com/c/jm7zojs5rb94" target="_blank" rel="noopener noreferrer">
+                                Integration Developer Certification
+                            </a>
+                        </strong>
+                        <time datetime="2026">2026</time>
+                    </div>
+                    <div class="entry-detail">Boomi</div>
+                </article>
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>
+                            <a href="https://www.credly.com/badges/c6ea8817-d6ac-421a-869b-a976e15e0893/public_url" target="_blank" rel="noopener noreferrer">
+                                AWS Certified Machine Learning Engineer - Associate
+                            </a>
+                        </strong>
+                        <time datetime="2026">2026</time>
+                    </div>
+                    <div class="entry-detail">Amazon Web Services</div>
+                </article>
+                <article class="entry">
+                    <div class="entry-header">
+                        <strong>
+                            <a href="https://www.credly.com/badges/e77e33f9-2611-4920-88a6-9631d2504b33/public_url" target="_blank" rel="noopener noreferrer">
+                                AWS Certified AI Practitioner
+                            </a>
+                        </strong>
+                        <time datetime="2025">2025</time>
+                    </div>
+                    <div class="entry-detail">Amazon Web Services</div>
+                </article>
+            </div>
+        </section>
+
+    </main>
 
 </body>
 </html>
